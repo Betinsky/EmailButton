@@ -105,9 +105,9 @@ Asegúrate de que el proyecto se compila sin errores para crear el archivo .jar 
 Antes de utilizar el componente, asegúrate de configurar el correo electrónico desde el cual se enviarán los mensajes. Para hacer esto, busca en el código del componente la sección donde se especifica el nombre de usuario y la contraseña del correo electrónico:
 
 
-String username = "tucorreo@gmail.com"; // Cambia por tu dirección de correo electrónico
-String password = "tupassword"; // Cambia por tu contraseña
-Reemplaza "tucorreo@gmail.com" con tu dirección de correo electrónico y "tupassword" con tu contraseña.
+**String username = "tucorreo@gmail.com";** // Cambia por tu dirección de correo electrónico
+**String password = "tupassword";** // Cambia por tu contraseña
+
 
 ### Agregar Componente a la Paleta:
 1. Compila tu proyecto para crear el archivo .jar.
