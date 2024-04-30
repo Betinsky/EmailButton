@@ -152,8 +152,8 @@ Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 4. Envía un pull request.
 
 ## Autores
-- Mario Alberto Barbosa Santiago- *Estudiante del ITO* - [Contacto]([https://github.com/Betinsky))
-- Bolivar Garcia Osorio - *Estudiante del ITO* - [Contacto]([https://github.com/Blvrr12))
+- Mario Alberto Barbosa Santiago- *Estudiante del ITO* - [Contacto]([https://github.com/Betinsky]))
+- Bolivar Garcia Osorio - *Estudiante del ITO* - [Contacto]([https://github.com/Blvrr12]))
 
 
 
