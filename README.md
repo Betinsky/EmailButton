@@ -89,7 +89,7 @@ Para utilizar este componente en tu proyecto, sigue estos pasos:
    Clona el repositorio con el siguiente comando:
 
    ```bash
-   git clone https://github.com/usuario/repo.git](https://github.com/Betinsky/EmailButton
+   git clone https://github.com/Betinsky/EmailButton
 O bien, descarga el ZIP desde la interfaz de GitHub.
 
 Importar el Proyecto:
