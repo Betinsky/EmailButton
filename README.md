@@ -29,7 +29,7 @@ Java Swing: El componente está diseñado para ser integrado en aplicaciones Jav
 Conexión a Internet: Para enviar correos electrónicos, se necesita una conexión activa a Internet para establecer la comunicación con el servidor SMTP.
 Cuenta de Correo Electrónico: Se requiere una cuenta de correo electrónico válida para autenticarse en el servidor SMTP y enviar correos electrónicos.
 
-##API
+## API
 ### EmailButton
 
 #### Descripción
@@ -110,23 +110,23 @@ String password = "tupassword"; // Cambia por tu contraseña
 Reemplaza "tucorreo@gmail.com" con tu dirección de correo electrónico y "tupassword" con tu contraseña.
 
 ### Agregar Componente a la Paleta:
-Compila tu proyecto para crear el archivo .jar.
-Agrega el componente a tu paleta de componentes. Para hacer esto, sigue los pasos adecuados para tu IDE. Por ejemplo, en NetBeans:
-Da clic derecho en la paleta de componentes y selecciona Palette Manager.
-Selecciona Add From Jar.
-Navega hasta la carpeta dist del proyecto y selecciona el archivo .jar generado.
+1. Compila tu proyecto para crear el archivo .jar.
+2. Agrega el componente a tu paleta de componentes. Para hacer esto, sigue los pasos adecuados para tu IDE. Por ejemplo, en NetBeans:
+3. Da clic derecho en la paleta de componentes y selecciona Palette Manager.
+4. Selecciona Add From Jar.
+5- Navega hasta la carpeta dist del proyecto y selecciona el archivo .jar generado.
 
-### Utilizar el Componente:
+## Utilizar el Componente:
 Arrastra y suelta el componente EmailButton en tu diseño de interfaz de usuario.
 Configura el destinatario, asunto y cuerpo del mensaje utilizando los métodos proporcionados por el componente:
 
-EmailButton emailButton = new EmailButton();
 emailButton.setEmail("destinatario@example.com");
 emailButton.setSubject("Asunto del correo");
 emailButton.setMessage("Cuerpo del correo");
-Envía el correo electrónico utilizando el método sendEmail():
 
-emailButton.sendEmail();
+### Envía el correo electrónico utilizando el método 
+sendEmail():
+
 
 ## Funcionamiento
 ¡Descubre cómo funciona este componente visual *Boton que envia Emails*!
