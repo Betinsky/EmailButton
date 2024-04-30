@@ -104,17 +104,17 @@ Asegúrate de que el proyecto se compila sin errores para crear el archivo .jar 
 Antes de utilizar el componente, asegúrate de configurar el correo electrónico desde el cual se enviarán los mensajes, así como el servidor SMTP. 
 Para hacer esto, busca en el código del componente la sección donde se especifica el servidor SMTP y el puerto del correo electrónico:
 
-<span style="color:red">String smtpServer = "smtp.example.com";</span> // Cambia "smtp.example.com" por tu servidor SMTP 
+String smtpServer = "smtp.example.com"; // Cambia "smtp.example.com" por tu servidor SMTP 
 
-<font color="red"> String smtpPort = "el puerto"; </font> // Cambia "el puerto" por el puerto SMTP correspondiente 
+String smtpPort = "el puerto"; // Cambia "el puerto" por el puerto SMTP correspondiente 
 
 Antes de utilizar el componente, asegúrate de configurar el correo electrónico desde el cual se enviarán los mensajes. 
 Para hacer esto, busca en el código del componente la sección donde se especifica el nombre de usuario y la contraseña del correo electrónico:
 
 
-<font color="red"> String username = "tucorreo@gmail.com"; </font>// Cambia por tu dirección de correo electrónico 
+String username = "tucorreo@gmail.com"; // Cambia por tu dirección de correo electrónico 
 
-<font color="red"> String password = "tupassword"; </font> // Cambia por tu contraseña 
+String password = "tupassword"; // Cambia por tu contraseña 
 
 
 ### Agregar Componente a la Paleta:
@@ -128,11 +128,11 @@ Para hacer esto, busca en el código del componente la sección donde se especif
 Arrastra y suelta el componente EmailButton en tu diseño de interfaz de usuario.
 Configura el destinatario, asunto y cuerpo del mensaje utilizando los métodos proporcionados por el componente:
 
-**emailButton.setEmail("destinatario@example.com");**
+emailButton.setEmail("destinatario@example.com");
 
-**emailButton.setSubject("Asunto del correo");**
+emailButton.setSubject("Asunto del correo");
 
-**emailButton.setMessage("Cuerpo del correo");**
+emailButton.setMessage("Cuerpo del correo");
 
 ### Envía el correo electrónico utilizando el método 
 sendEmail():
