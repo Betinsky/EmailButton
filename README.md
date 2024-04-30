@@ -122,9 +122,11 @@ Para hacer esto, busca en el código del componente la sección donde se especif
 Arrastra y suelta el componente EmailButton en tu diseño de interfaz de usuario.
 Configura el destinatario, asunto y cuerpo del mensaje utilizando los métodos proporcionados por el componente:
 
-emailButton.setEmail("destinatario@example.com");
-emailButton.setSubject("Asunto del correo");
-emailButton.setMessage("Cuerpo del correo");
+**emailButton.setEmail("destinatario@example.com");**
+
+**emailButton.setSubject("Asunto del correo");**
+
+**emailButton.setMessage("Cuerpo del correo");**
 
 ### Envía el correo electrónico utilizando el método 
 sendEmail():
