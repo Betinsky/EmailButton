@@ -36,14 +36,14 @@ public class EmailButton extends JButton implements ActionListener {
     public void sendEmail() {
     // Configuración de las propiedades para la conexión con el servidor SMTP
     Properties props = new Properties();
-    props.put("mail.smtp.host", "smtp.gmail.com"); // Cambia "smtp.example.com" por tu servidor SMTP
-    props.put("mail.smtp.port", "587"); // Puerto SMTP
+    props.put("mail.smtp.host", "smtp.example.com"); // Cambia "smtp.example.com" por tu servidor SMTP
+    props.put("mail.smtp.port", "el puerto"); // Puerto SMTP
     props.put("mail.smtp.auth", "true");
     props.put("mail.smtp.starttls.enable", "true");
 
     // Credenciales de autenticación
-    String username = "prueba230620031@gmail.com"; // Cambia por tu dirección de correo electrónico
-    String password = "hufz lmrx qbky mcde"; // Cambia por tu contraseña
+    String username = "Cambia por tu dirección de correo electrónico"; // 
+    String password = "Cambia por tu contraseña"; // 
 
     // Creación de la sesión
     Session session = Session.getInstance(props,
