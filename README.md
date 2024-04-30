@@ -104,7 +104,7 @@ Asegúrate de que el proyecto se compila sin errores para crear el archivo .jar 
 Antes de utilizar el componente, asegúrate de configurar el correo electrónico desde el cual se enviarán los mensajes, así como el servidor SMTP. 
 Para hacer esto, busca en el código del componente la sección donde se especifica el servidor SMTP y el puerto del correo electrónico:
 
-<font color="red"> String smtpServer = "smtp.example.com"; </font> // Cambia "smtp.example.com" por tu servidor SMTP 
+<span style="color:red">String smtpServer = "smtp.example.com";</span> // Cambia "smtp.example.com" por tu servidor SMTP 
 
 <font color="red"> String smtpPort = "el puerto"; </font> // Cambia "el puerto" por el puerto SMTP correspondiente 
 
