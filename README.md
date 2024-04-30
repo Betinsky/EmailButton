@@ -141,7 +141,7 @@ sendEmail():
 ## Funcionamiento
 ¡Descubre cómo funciona este componente visual *Boton que envia Emails*!
 
-Haz clic para ver el video ahora mismo ---> 
+Haz clic para ver el video ahora mismo ---> [EmailButton](https://youtu.be/VPbEidsRFiM) 
 
 ## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
